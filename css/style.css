@@ -1,0 +1,52 @@
+header {
+  height: 500px;
+  background-image: url(../images/img_responsive_2.jpg);
+  background-size: cover;
+  background-position: center; }
+  @media (max-width: 768px) {
+    header {
+      height: 250px; } }
+
+main {
+  padding: 30px;
+  text-align: center; }
+  main .main-title {
+    text-align: center;
+    margin-bottom: 30px; }
+  main .showcase {
+    display: flex;
+    justify-content: space-between; }
+    @media (max-width: 768px) {
+      main .showcase {
+        flex-direction: column; } }
+    main .showcase .box {
+      width: 30%;
+      background: #ccc; }
+      main .showcase .box .box-title {
+        padding: 20px 0;
+        background: #ddd; }
+      main .showcase .box .box-text {
+        padding: 40px 0; }
+
+hotter .hotter-text {
+  text-align: center;
+  padding: 20px; }
+hotter .hotter-button {
+  width: 200px;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding: 8px 0 10px;
+  color: #fff;
+  background-color: #000;
+  border-radius: 10px;
+  margin: 0 auto; }
+
+@media (max-width: 768px) {
+  main .showcase .box {
+    width: 100%;
+    margin-top: 20px; } }
+
+/*# sourceMappingURL=style.css.map */
