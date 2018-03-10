@@ -28,10 +28,10 @@ main {
       main .showcase .box .box-text {
         padding: 40px 0; }
 
-hotter .hotter-text {
+fotter .fotter-text {
   text-align: center;
   padding: 20px; }
-hotter .hotter-button {
+fotter .fotter-button {
   width: 200px;
   font-size: 24px;
   font-weight: bold;
@@ -42,7 +42,8 @@ hotter .hotter-button {
   color: #fff;
   background-color: #000;
   border-radius: 10px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-bottom: 20px; }
 
 @media (max-width: 768px) {
   main .showcase .box {
